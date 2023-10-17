@@ -179,7 +179,7 @@ update_config_symlink: true
 update_config_txt: false
 on_set_active_config: null
 on_get_active_config: null
-supported_capture_types: ["Stdin"]
+supported_capture_types: ["Stdin", "Alsa"]
 supported_playback_types: ["Alsa"]
 ' > config/camillagui.yml
 
